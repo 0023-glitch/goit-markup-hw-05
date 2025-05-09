@@ -716,3 +716,6 @@ img {
 :root {
   --link-color: #4d5ae5;
 }
+.modal-checkbox-box {
+  margin-bottom: 24px;
+}
