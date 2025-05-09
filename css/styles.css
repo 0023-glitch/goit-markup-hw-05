@@ -675,7 +675,7 @@ img {
   fill: #f4f4fd;
 }
 
-.terms-text {
+.checkbox-label {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
@@ -683,6 +683,10 @@ img {
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
+:root {
+  --link-color: #4d5ae5;
+}
+
 .check-link {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -691,6 +695,7 @@ img {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
+  color: var(--link-color);
 }
 .modal-button {
   display: block;
